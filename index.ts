@@ -76,7 +76,7 @@ const getDeezerLinkForAlbum = async (album: IAlbum): Promise<getDeezerLinkForAlb
 };
 
 const getAlbums = async () => {
-  const topAlbums = await getTopAlbumsForPeriod({user: "Puffycheeses"});
+  const topAlbums = await getTopAlbumsForPeriod({user: process.env.username});
   const responses: getDeezerLinkForAlbumResponse[] = [];
   for (const album of topAlbums) {
     const link = await getDeezerLinkForAlbum(album);

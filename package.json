@@ -1,12 +1,13 @@
 {
-  "name": "lastfm",
+  "name": "lastfm-to-deezer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Get top LastFM listens and fetch Deezer URLs for each album",
   "main": "index.ts",
   "scripts": {
     "start": "ts-node index.ts"
   },
-  "author": "",
+  "repository": "https://github.com/Puffycheeses/LastFM2Deezer",
+  "author": "Puffycheeses",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^16.0.0",
